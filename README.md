@@ -7,5 +7,5 @@
   }
   var predicates = [{ Field: "Ask", Condition: cnd }];
   var writer = new QuoteWriter("INPX", predicates);
-  write.start();
+  writer.start();
 ```
